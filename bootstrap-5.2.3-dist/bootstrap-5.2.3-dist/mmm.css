@@ -408,9 +408,7 @@ height: 44px;
         height: 392px;
         object-fit: cover;
     }
-    .home{
-        max-height: 120vh;
-    }
+  
     .big {
       margin-top: 114px;
   
@@ -424,8 +422,24 @@ height: 44px;
       display: none;
     }
 
+    .container-fluid{
+      background-color: black;
+    }
+    .navbar-toggler{
+     background-color: #fef9f9;
 
-
-
+    }
+    .nav-link{
+      color:aliceblue;
+    }
+     .navbar-collapse .nav-link{
+      color: #f6f1f1;
+    }
+    a.nav-link.active{
+      color: #f6f1f1;
+    }
+    .home{
+      background-image: linear-gradient(rgba(6, 6, 60, 0.056), rgb(7 7 53 / 59%), rgb(5 5 62 / 13%)), url(./img/img.1.jpg);
+    }
 
 }
